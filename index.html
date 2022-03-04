@@ -7,6 +7,12 @@
 		<title>StarWars</title>
 		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<main>
@@ -21,12 +27,23 @@
 			<section class="info">
 				<div class="container">
 					<div class="info-flex">
-						<h2 class="charInfo">Star Wars Character</h2>
-						<h3 class="character">Character Name</h3>
-						<h2 class="planet-info">Planet</h2>
-						<h3 class="planet">Home Planet</h3>
-						<button id="char-select">Random Character</button>
+						<div class="text">
+							<h2 class="charInfo">Star Wars Character</h2>
+							<h3 class="character">Character Name</h3>
+							<h2 class="planet-info">Planet</h2>
+							<h3 class="planet">Home Planet</h3>
+						</div>
+
+						<div class="frame">
+							<img
+								id="char-img"
+								src="imgs/cover.jpg"
+								alt="Star Wars Character"
+							/>
+						</div>
 					</div>
+
+					<button id="char-select">Random Character</button>
 				</div>
 			</section>
 		</main>
